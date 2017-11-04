@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fa">
 <head>
-    <title>TSB Co./Contact Us</title>
+    <title>Tajhiz Sana't Baran Co.</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -19,9 +19,9 @@
     <![endif]-->
 </head>
 <body>
-<header class="top-header" id="header">
+<header style="opacity: 0.85" class="top-header" id="header">
     <ul style="margin-right: 5%" class="nav navbar-nav navbar-right">
-        <li><a class="menu" href="#contactUs">تماس با‌ ما</a></li>
+        <li><a class="menu" href="contactUs.html">تماس با‌ ما</a></li>
         <li><a class="menu" href="articles.html">مقاله‌ها</a></li>
         <li><a class="menu" href="projects.html">پروژه‌ها</a></li>
         <li><a class="menu" href="products.html">محصول‌ها</a></li>
@@ -29,26 +29,27 @@
     </ul>
 </header>
 <section id="contactUs">
-    <img style="float:left;margin-left:20%;width: 20%; margin-top: 3%; margin-bottom: 3%" src="img/contact.png">
-    <!--<div class="container">-->
-    <!--<form action="/action_page.php">-->
-    <!--<label for="fname">First Name</label>-->
-    <!--<input type="text" id="fname" name="firstname" placeholder="Your name..">-->
-    <!--<label for="lname">Last Name</label>-->
-    <!--<input type="text" id="lname" name="lastname" placeholder="Your last name..">-->
-    <!--<label for="country">Country</label>-->
-    <!--<select id="country" name="country">-->
-    <!--<option value="australia">Australia</option>-->
-    <!--<option value="canada">Canada</option>-->
-    <!--<option value="usa">USA</option>-->
-    <!--</select>-->
-    <!--<label for="subject">Subject</label>-->
-    <!--<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>-->
-    <!--<input type="submit" value="Submit">-->
-    <!--</form>-->
-    <!--</div>-->
+    <center>
+        <social style="float:left;margin-left: 15%; width: 50%;margin-right: -45%; margin-top: 5%">
+            <img style="width: 40%" src="img/contact.png">
+        </social>
+        <address style="overflow: hidden;width: 45%">
+            <div style="margin-top: 15%; margin-right: 5%; width: 45%">
+                <form action="/action_page.php" style="font-family: IRANSansMobile; color: #737373;direction: rtl">
+                    <p><b style="font-size: small">نام و نام‌خانوادگی:</b></p>
+                    <input style="width: 80%" type="text" name="person" size="100">
+                    <p><br><b style="font-size: small">پست‌الکترونیک:</b></p>
+                    <input style="width: 80%" type="email" name="email" size="100">
+                    <p><br><b style="font-size: small">متن:</b></p>
+                    <textarea style="width: 80%; font-size: small"></textarea>
+                    <b><input type="submit" value="ارسال پیام"></b>
+                </form>
+            </div>
+            </div>
+        </address>
+    </center>
 </section>
-<footer style="background-color: black; opacity: 0.85">
+<footer style="background-color: black; opacity: 0.85; margin-top: 5%">
     <social style="float:left; width: 45%; margin-left: 5%; margin-top: 2.5%">
         <div style="cursor: pointer">
             <a href="http://telegram.org/"><img style="width: 40px" src="img/telegram.png"></a>
@@ -71,3 +72,4 @@
     </address>
 </footer>
 </body>
+</html>
